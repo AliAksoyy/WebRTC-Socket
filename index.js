@@ -2,7 +2,6 @@ const express = require("express");
 const cors = require("cors");
 const socket = require("socket.io");
 const http = require("http");
-const { sign } = require("crypto");
 
 const app = express();
 
